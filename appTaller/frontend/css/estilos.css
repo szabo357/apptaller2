@@ -1,0 +1,91 @@
+body { height:1500px; 
+		padding-top: 150px; 
+		/*background: #222;*/
+		background: whitesmoke; 
+	}
+ul{ list-style-type: none; }
+
+#tm_logo,#ah_logo{ width:6em; height:4em; margin-left:20px;}
+#coders_logo{ ;width: 9em;
+				height: 3em;
+				margin-top: auto;
+				margin-right: 10px;
+				margin-bottom: auto; 
+			}
+
+ .btn-list-item{height:auto; width: auto; padding-bottom:5px;}
+
+
+/******************************     Navbar     *******************************************/
+
+.navbar-fixed-top .nav {
+    padding: 15px 0;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+
+@media(min-width:768px) {
+    body {
+        
+        padding-top: 124px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
+	.navbar-text {
+		float: left;
+		margin-left: 200px;
+		margin-right: 15px;
+	}
+	#tm_logo,#ah_logo{ width:6em; height:4em; margin-left:20px;}
+#coders_logo{ ;width: 9em;
+				height: 3em;
+				margin-top: auto;
+				margin-right: 10px;
+				margin-bottom: auto; 
+			}
+}
+
+/******************************     LEDs Styles     *******************************************/
+
+.led, .led-1, .led-2, .led-3, .led-4, .led-5,.led-6,.led-7,.led-8 {
+    box-sizing: border-box;
+    width: 1.4em;
+    height: 1.4em; display: block;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.25);
+    box-shadow: #000 0 -1px 6px 1px;
+}
+
+.led-off {
+    background-color: #9D1616;
+    box-shadow: #000 0 -1px 6px 1px, inset #600 0 -1px 8px, #9D1616 0 3px 2px;
+}			
+
+.led-red {
+    background-color: #F00;
+    box-shadow: #000 0 -1px 6px 1px, inset #600 0 -1px 8px, #F00 0 3px 11px;
+}			
+
+.led-orange {
+    background-color: #FF7000;
+    box-shadow: #000 0 -1px 6px 1px, inset #630 0 -1px 8px, #FF7000 0 3px 11px;
+}
+
+.led-yellow {
+    background-color: #FF0;
+    box-shadow: #000 0 -1px 6px 1px, inset #660 0 -1px 8px, #FF0 0 3px 11px;
+}
+
+.led-green {
+    background-color: #80FF00;
+    box-shadow: #000 0 -1px 6px 1px, inset #460 0 -1px 8px, #80FF00 0 3px 11px;
+}
+
+.led-blue {
+    background-color: #06F;
+    box-shadow: #000 0 -1px 6px 1px, inset #006 0 -1px 8px, #06F 0 3px 11px;
+}
